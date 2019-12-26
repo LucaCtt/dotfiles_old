@@ -1,0 +1,63 @@
+{
+  "editor.fontFamily": "'Fira Mono for Powerline', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.accessibilitySupport": "off",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.fontWeight": "500",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+  "workbench.enableExperiments": false,
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "vim.useSystemClipboard": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 16,
+  "editor.autoSurround": "quotes",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.maxTokenizationLineLength": 10000,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.suggest.localityBonus": true,
+  "files.insertFinalNewline": true,
+  "breadcrumbs.enabled": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "window.enableMenuBarMnemonics": false,
+  "window.customMenuBarAltFocus": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.showExitAlert": false,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "eslint.run": "onSave",
+  "git.autofetchPeriod": 300,
+  "git.autoStash": true,
+  "npm.autoDetect": "off",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "vscode-icons",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.showAbbreviationSuggestions": false,
+  "workbench.colorTheme": "Horizon",
+  "vim.foldfix": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.useLanguageServer": true,
+}
