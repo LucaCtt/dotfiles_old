@@ -1,0 +1,17 @@
+#/bin/bash
+
+# Install yay
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd
+rm -r yay
+
+echo -n "Install packages from list? (y|n) "
+read INSTALL
+
+if [ $INSTALL == "y" ]
+then
+    # Install packages
+    yay -S --needed - < pkglist.txt
+fi

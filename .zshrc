@@ -106,3 +106,5 @@ export GOPATH="$HOME/go"
 export PATH="$PATH:/home/potato/.local/bin:/home/potato/.yarn/bin:$GOPATH/bin"
 export LIBVA_DRIVER_NAME="iHD"
 export EDITOR="vim"
+
+alias sysyadm="sudo yadm -Y /etc/yadm"

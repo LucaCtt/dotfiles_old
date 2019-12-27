@@ -1,0 +1,4 @@
+#/bin/bash
+
+pacman -Qqe > pkglist.txt
+yadm add pkglist.txt
